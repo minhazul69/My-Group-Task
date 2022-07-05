@@ -1,5 +1,6 @@
 import "./App.css";
 import Dashboard from "./Pages/Components/Dashboard/Dashboard";
+import Dashboard from "./Pages/Components/Dashboard1/Dashboard1";
 import Navbar from "./Pages/Components/Navbar/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Dashboard />
+      <Dashboard1 />
     </div>
   );
 }
