@@ -1,4 +1,5 @@
 import "./App.css";
+import Dashboard from "./Pages/Components/Dashboard/Dashboard";
 import Navbar from "./Pages/Components/Navbar/Navbar";
 
 function App() {
