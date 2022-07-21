@@ -1,0 +1,23 @@
+/* NAVBAR  STYLE */
+.navbar li {
+  margin: 0 5px;
+}
+.navbar li:last-child {
+  margin: 0;
+}
+.navbar li a {
+  font-weight: 500;
+  color: rgb(11, 109, 161);
+  transition: all ease-in 0.3s;
+  padding: 9px 18px;
+  border-radius: 4px;
+}
+.navbar li a:hover {
+  background-color: rgba(138, 136, 136, 0.887);
+}
+/* RESPONSIVE STYLE */
+@media only screen and (max-width: 768px) {
+  .navbar li {
+    margin: 18px 15px;
+  }
+}

@@ -1,0 +1,39 @@
+/* USERFLOW CARD ICON STYLE */
+.ac-create-icon {
+  font-size: 60px;
+  display: inline-block;
+  color: #1fc157;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  z-index: 1;
+  text-align: center;
+}
+.ac-create-icon::after {
+  position: absolute;
+  content: "";
+  left: 8px;
+  top: 15px;
+  background: url(http://rockstheme.com/rocks/paiment-live/img/about/shape-bg.png);
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 90%;
+  height: 90%;
+  background-size: cover;
+  opacity: 0.1;
+}
+/* USERFLOW ARROW ICON STYLE */
+.rotted-down {
+  transform: rotate(30deg);
+  font-size: 34px;
+  opacity: 0.5;
+}
+.rotted-up {
+  transform: rotate(-30deg);
+  font-size: 34px;
+  opacity: 0.5;
+}
+.rotted-solid {
+  font-size: 34px;
+  opacity: 0.5;
+}
