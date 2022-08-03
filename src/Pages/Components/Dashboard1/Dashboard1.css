@@ -1,0 +1,22 @@
+.card-1-bg {
+  background: linear-gradient(260deg, #500daca1, #040404) 100%,
+    url(https://wallpapercave.com/wp/wp6871230.jpg);
+  background-color: #010101;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* -webkit-filter: blur(8px); */
+}
+.bg-image {
+  background: linear-gradient(260deg, #9110dc0b, #17161a) 100%,
+    url(https://antlere.com/wp-content/uploads/2019/02/bank-reasons.png);
+  background-color: #010101;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .divider-hidden {
+    display: none;
+  }
+}
